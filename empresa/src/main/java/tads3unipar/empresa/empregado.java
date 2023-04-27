@@ -10,7 +10,7 @@ package tads3unipar.empresa;
  */
 public class empregado {
    private String nome;
-    float salario;
+    protected float salario;
     public empregado(String Nome, float Salario){
         this.nome = Nome;
         this.salario = Salario;
